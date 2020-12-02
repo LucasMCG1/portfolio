@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LMC Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <h1 id='header'>Welcome to my Webpage</h1>
+  <div class="nav-bar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="files/CV.pdf" target="_blank">Resume</a></li>
+      <li><a href="bio.html">Bio</a></li>
+      <li class="active"><a href="contact.html">Contact</a>
+        <ul class="dropdown">
+          <li><a href="contact.html">Contact Information</a></li>
+          <li><a href="form.html">Contact Form</a></li>
+          <li><a href="https://www.linkedin.com/in/lucas-cojot-66a7031b8/" target="_blank">LinkedIn</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <br></br>
+  <div class="form">
+    <h2>Contact Form</h2>
+    <h3>I typically reply within 24 hours</h3>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <label for="lname">Organization:</label><br>
+      <input type="text" id="organization" name="organization" value="Northwestern University"><br><br>
+      <label for="lname">Email:</label><br>
+      <input type="text" id="email" name="email" value="johndoe@gmail.com"><br><br>
+      <label for="lname">I am contacting for:</label><br>
+      <input type="radio" id="recruiting" name="type" value="recruiting">
+      <label for="male">Recruiting</label><br>
+      <input type="radio" id="hello" name="type" value="hello">
+      <label for="female">Say Hello</label><br>
+      <input type="radio" id="other" name="type" value="other">
+      <label for="other">Other</label><br><br><br>
+      <label for="lname">Message:</label><br>
+      <textarea name="comment" form="usrform">Enter text here...</textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>

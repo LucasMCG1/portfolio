@@ -1,0 +1,136 @@
+/* MAIN */
+body{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+  color: red;
+  text-align: center;
+}
+
+h3{
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
+
+/* PROJECTS */
+
+.projects {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: red;
+  margin: 20px;
+  padding: 20px;
+}
+
+#projects, h2, h3{
+  margin-left: 10px;
+}
+
+#projects, p, a{
+  color: white;
+  margin-left: 20px;
+}
+
+/* ALL FLEX CONTAINERS */
+
+.flex-container {
+  display: flex;
+  border: 2px solid white;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+/* PROJECTS */
+
+#datamining-viz, flex-child, img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* CONTACT PAGE */
+
+.contact-viz img{
+  height: 300px;
+}
+
+/* NAV BAR */
+
+#nav-bar, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#nav-bar, li {
+  float: left;
+  display: inline-block;
+}
+
+#nav-bar, li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav-bar, li a:hover {
+  background-color: #111;
+}
+
+#nav-bar, .active a{
+  background-color: red;
+}
+
+#nav-bar, .dropdown {
+  display: none;
+  position: absolute;
+  border: 2px solid white;
+}
+
+#nav-bar, .dropdown li{
+  display: block;
+  background-color: red;
+}
+
+#nav-bar, li:hover .dropdown {
+  display: block;
+}
+
+/* BIO */
+
+#bio, h2{
+  color: red;
+}
+
+/* CONTACT */
+
+.contact p{
+  font-size: 18px;
+}
+
+.contact a{
+  font-size: 18px;
+}
+
+/* FORM */
+
+.form{
+  padding-left: 30px;
+}
+
+.form, .label{
+  color: white;
+}

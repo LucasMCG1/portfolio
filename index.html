@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LMC Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id='header'>Welcome to my Webpage</h1>
+  <div class="nav-bar">
+    <ul>
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="files/CV.pdf" target="_blank">Resume</a></li>
+      <li><a href="bio.html">Bio</a></li>
+      <li><a href="contact.html">Contact</a>
+        <ul class="dropdown">
+          <li><a href="contact.html">Contact Information</a></li>
+          <li><a href="form.html">Contact Form</a></li>
+          <li><a href="https://www.linkedin.com/in/lucas-cojot-66a7031b8/" target="_blank">LinkedIn</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="projects">
+    <div class='datamining flex-container'>
+      <div class='datamining-info flex-child'>
+        <h2>DATA MINING PROJECT</h2>
+        <p>THIS IS A WEB-SCRAPER THAT FETCHES THE NAMES OF PARENT COMPANIES</p>
+        <p><b>Input:</b> Company (string)</p>
+        <p><b>Output:</b> Parent Company of Input (string)</p>
+        <h3>FILES:</h3>
+        <a href='files/getTicker_documentation.pdf' target="_blank">Documentation (pdf)</a><br></br>
+        <a href='files/getTicker.ipynb' target="_blank">Code (notebook)</a><br></br>
+        <a href='files/performanceReport_getTicker.pdf' target="_blank">Performance Report (pdf)</a>
+      </div>
+      <div class='datamining-viz flex-child'>
+        <img alt="flow chart of corresponding outputs given inputs for the datamining project" src="files/datamining.png"/>
+      </div>
+    </div>
+    <br></br>
+    <div class='lcs flex-container'>
+      <div class='lcs-info flex-child'>
+        <h2>LONGEST COMMON SUBSEQUENCE ALGORITHM</h2>
+        <p>THIS IS A DYNAMIC PROGRAM TO FIND THE LONGEST COMMON SUBSEQUENCE BETWEEN 2 STRINGS</p>
+        <p><b>Input:</b> string, sequence (strings)</p>
+        <p><b>Output:</b> longest common subsequence (string)</p>
+        <h3>FILES:</h3>
+        <a href='lcs.ipynb' target="_blank">Code (notebook)</a><br></br>
+        <a href='lcs.html'>
+          <button class="read-more">READ MORE</button>
+        </a>
+      </div>
+      <div class='lcs-viz flex-child'>
+        <img alt="matrix representation of a longest common subsequence dynamic programming algorithm" src="files/lcs.png"/>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

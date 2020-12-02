@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LMC Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <h1 id='header'>Welcome to my Webpage</h1>
+  <div class="nav-bar">
+    <ul>
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="files/CV.pdf" target="_blank">Resume</a></li>
+      <li><a href="bio.html">Bio</a></li>
+      <li><a href="contact.html">Contact</a>
+        <ul class="dropdown">
+          <li><a href="contact.html">Contact Information</a></li>
+          <li><a href="form.html">Contact Form</a></li>
+          <li><a href="https://www.linkedin.com/in/lucas-cojot-66a7031b8/" target="_blank">LinkedIn</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <br></br>
+  <div class="lcs flex-container">
+    <div clas="lcs-info flex-child">
+      <h3>LCS Problem</h3>
+      <p>The longest common subsequence (LCS) problem is the problem of finding the longest subsequence common to all sequences in a set of sequences (often just two sequences). It differs from the longest common substring problem: unlike substrings, subsequences are not required to occupy consecutive positions within the original sequences. The longest common subsequence problem is a classic computer science problem, the basis of data comparison programs such as the diff utility, and has applications in computational linguistics and bioinformatics. (Wikipedia, 2020)</p>
+    </div>
+    <div clas="lcs-viz flex-child">
+      <img alt="tree graph representation of a longest common subsequence algorithm" src="files/lcs.jpg"/>
+    </div>
+  </div>
+  <div class="lcs flex-container">
+    <div clas="lcs-info flex-child">
+      <h3>Examples of inputs and outputs</h3>
+      <p>ABC, C = C</p>
+      <p>ABC, ABC = ABC</p>
+      <p>ABC, DEF = empty string</p>
+      <p>ABC, CBA = ABC</p>
+    </div>
+    <div clas="lcs-viz flex-child">
+      <img alt="matrix representation of a longest common subsequence algorithm" src="files/lcs2.png"/>
+      <img alt="examples of outputs for a given subsequence for the longest common subsequence algorithm" src="files/outputs.jpg"/>
+    </div>
+  </div>
+</body>
+</html>
